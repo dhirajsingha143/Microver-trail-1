@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Survey Page</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
         <h1 id="title">FreeCodeCamp Survey Form</h1>
         <p id="description">Thank you for taking the time to help us improve the platform</p>
 
@@ -25,7 +28,7 @@
             <input id="number" type="number" placeholder="Enter your Age" min="13" max="120">
             </div>
             <div>
-            <label for="">Which option best describes your current role?</label>
+            <label class="dropdown-label">Which option best describes your current role?</label>
             </div>
             <div>
             <select name="role" id="dropdown">
@@ -54,7 +57,7 @@
             <label for="">What is your favorite feature of freeCodeCamp?</label>
             </div>
             <div>
-            <select name="role" id="cars">
+            <select name="role" id="feature">
                 <option value="volvo">Select an option</option>
                 <option value="saab">Challenges</option>
                 <option value="mercedes">Projects</option>
@@ -76,17 +79,13 @@
             <div><input type="checkbox" value="anything">Wiki</input></div>
             <div><input type="checkbox" value="anything">Forum</input></div>
             <div><input type="checkbox" value="anything">Additional Courses</input></div>
-            
-            <div>
-                <label for="">Any comments or suggestions?</label>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-            </div>
-
+            <div><label for="">Any comments or suggestions?</label></div>
+            <div><textarea name="" id="textarea" cols="40" rows="5"></textarea></div>
             <input type="submit" id="submit">
             </div>
             <div></div>
             </fieldset>
         </form>
-    </body>
+    <script  src="js/index.js"></script>
+  </body>
 </html>
-
