@@ -1,0 +1,29 @@
+body{
+    background-image: url("backgroundimg.jpg");
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+.checkboxs{
+    display: flex;
+    flex-direction: column;
+    
+}
+.checkboxs input{
+    display: inline;
+    float: left;
+}
+form{
+    margin-left: auto;
+    width: auto;
+    padding: 2px;
+}
+fieldset{
+    border: 3px solid black;
+    display: grid;
+    grid-template-columns: repeat(1fr,1fr,1fr);
+    grid-gap: 10px;
+}
+div{
+    padding: 2px;
+}
+
